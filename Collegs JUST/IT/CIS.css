@@ -1,0 +1,450 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url('IT Images/office-scene-4255945_1280.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 1349px;
+	 background-size: cover;
+}
+/*************************** اللينكات الرئيسية ***************************/
+
+.background{
+    background-image: url('IT Images/CisBackground.jpg');
+	 background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.container { /*Make every thing in the middle */
+	width: 750px;
+	margin: auto;
+    
+}
+.navbar {
+    background-color: #f2d974;
+	 color: #000;
+	 overflow:hidden;
+    font-size: 23px;
+    opacity: .8;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.navbar ul li{
+	float: left;
+	padding: 10px;
+    list-style: none;
+    opacity: 9;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    opacity: 9;
+}
+
+/********** main **********/
+
+.navbar ul li .colormain{
+   color: #000;
+}
+
+.navbar ul .bordermain{
+   background-color: #FFF;
+   border-radius: 50%
+}
+   
+/*************************/
+
+.navbar:hover, .navbar ul li:hover, .navbar ul li a:hover{
+    opacity: 10;
+    color: #000;
+}
+
+/******************************JUST Logo***********************************/
+
+.JUST_logo{
+    position: absolute;
+    left: 5px;
+    width: 250px;
+    height: 150px;
+    overflow: hidden
+}
+
+/********************************go top icon*********************************/
+
+.goTop{
+   width: 70px;
+   height: 70px;
+   position: fixed;
+   bottom: 5px;
+   right: 5px;
+}
+
+/********************************Department Breif***********************************/
+
+.DepBreif{
+    background-color: #f2d974;
+    direction: rtl;
+    height: 493px;
+    border-bottom : 1px solid #000;
+    margin-bottom: 300px;
+}
+
+.DepBreif h1{
+    text-align: center;
+    color: #262626;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-bottom: 15px;
+}
+
+.DepBreif h2{
+	 direction: rtl;
+    color: #262626;
+    padding: 5px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+	 line-height: 30px
+}
+
+/********************************Department Group***********************************/
+
+.DepGroup{
+    background-image: url('IT Images/jcs.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    margin: auto;
+    height: 323px;
+    border-bottom : 1px solid #000;
+    margin-bottom: 300px;
+}
+
+.DepGroup h1{
+   direction: rtl;
+    text-align: center;
+    color: #262626;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-bottom: 15px;
+}
+
+.DepGroup h2{
+   background-color: #1E3259;
+   color: #FFF;
+   width:300px;
+   margin: 220px 260px;
+   text-align: center;
+   border-radius: 40%;
+   border: 1px solid #00F;
+   text-decoration: none;
+}
+
+.DepGroup a{
+   text-decoration: none;
+}
+
+/********************************Material***********************************/
+
+.material{
+   height: 2830px;
+   background-color: #f2d974;
+   margin-bottom: 500px;
+   border-bottom: 1px solid #757070;
+}
+
+.material h1, .material h2{
+   color: #262626;
+   text-align: center;
+   border: 1px solid #757070;
+   padding: 10px;
+   direction: rtl;
+   margin-bottom: 20px;
+}
+
+.contain{
+   margin: auto;
+   width: 1000px;
+}
+
+/*********************one1*********************/
+
+.one1{
+   background-image: url('IT Images/s11.jpg');
+   height: 400px;
+   padding-top: 70px;
+   background-repeat: no-repeat
+}
+
+.one1 ul li{
+   width: 80px;
+   text-align: center;
+   list-style: none;
+   margin-top: 14px;
+   border: 1px solid #000;
+   padding: 3px;
+   background-color: #FFF;
+}
+
+.one1 ul a{
+   text-decoration: none;
+   color: #000
+}
+
+/*********************one2*********************/
+
+.one2{
+   margin-top: -155px;
+   background-image: url('IT Images/s12.jpg');
+   height: 400px;
+   padding-top: 64px;
+   background-repeat: no-repeat
+}
+
+.one2 ul li{
+   width: 80px;
+   text-align: center;
+   list-style: none;
+   margin-top: 9.6px;
+   border: 1px solid #000;
+   padding: 3px;
+   background-color: #FFF;
+}
+
+.one2 ul a{
+   text-decoration: none;
+   color: #000
+}
+
+/*********************two1*********************/
+
+.two1{
+   margin-top: -150px;
+   background-image: url('IT Images/s21.jpg');
+   height: 400px;
+   padding-top: 55px;
+   background-repeat: no-repeat
+}
+
+.two1 ul li{
+   width: 80px;
+   text-align: center;
+   list-style: none;
+   margin-top: 6.5px;
+   border: 1px solid #000;
+   padding: 3px;
+   background-color: #FFF;
+}
+
+.two1 ul a{
+   text-decoration: none;
+   color: #000
+}
+
+/*********************two2*********************/
+
+.two2{
+   margin-top: -140px;
+   background-image: url('IT Images/s22.jpg');
+   height: 400px;
+   padding-top: 50px;
+   background-repeat: no-repeat
+}
+
+.two2 ul li{
+   width: 80px;
+   text-align: center;
+   list-style: none;
+   margin-top: 6.8px;
+   border: 1px solid #000;
+   padding: 1px;
+   background-color: #FFF;
+}
+
+.two2 ul a{
+   text-decoration: none;
+   color: #000
+}
+
+/*********************three1*****************/
+
+.three1{
+   margin-top: -135px;
+   background-image: url('IT Images/s31.jpg');
+   height: 400px;
+   padding-top: 67px;
+   background-repeat: no-repeat
+}
+
+.three1 ul li{
+   width: 80px;
+   text-align: center;
+   list-style: none;
+   margin-top: 9.6px;
+   border: 1px solid #000;
+   padding: 3px;
+   background-color: #FFF;
+}
+
+.three1 ul a{
+   text-decoration: none;
+   color: #000
+}
+
+/*********************three2*****************/
+
+.three2{
+   margin-top: -150px;
+   background-image: url('IT Images/s32.jpg');
+   height: 400px;
+   padding-top: 70px;
+   background-repeat: no-repeat
+}
+
+.three2 ul li{
+   width: 80px;
+   text-align: center;
+   list-style: none;
+   margin-top: 14px;
+   border: 1px solid #000;
+   padding: 3px;
+   background-color: #FFF;
+}
+
+.three2 ul a{
+   text-decoration: none;
+   color: #000
+}
+
+/*********************three3*****************/
+
+.three3{
+   margin-top: -150px;
+   background-image: url('IT Images/s33.jpg');
+   height: 220px;
+   padding-top: 70px;
+   background-repeat: no-repeat
+}
+
+/*********************four1*****************/
+
+.four1{
+   margin-top: -150px;
+   background-image: url('IT Images/s41.jpg');
+   height: 400px;
+   padding-top: 70px;
+   background-repeat: no-repeat
+}
+
+.four1 ul li{
+   width: 80px;
+   text-align: center;
+   list-style: none;
+   margin-top: 14px;
+   border: 1px solid #000;
+   padding: 3px;
+   background-color: #FFF;
+}
+
+.four1 ul a{
+   text-decoration: none;
+   color: #000
+}
+
+/*********************four2*****************/
+
+.four2{
+   margin-top: -150px;
+   background-image: url('IT Images/s42.jpg');
+   height: 400px;
+   padding-top: 85px;
+   background-repeat: no-repeat;
+}
+
+.four2 ul li{
+   width: 80px;
+   text-align: center;
+   list-style: none;
+   margin-top: 14px;
+   border: 1px solid #000;
+   padding: 5px;
+   background-color: #FFF;
+}
+
+.four2 ul a{
+   text-decoration: none;
+   color: #000
+}
+
+
+/********************************Page End***********************************/
+
+.end{
+   width: 100%;
+   height: 400px;
+   background-image: url('IT Images/metal-2735777_1280.jpg');
+	background-size: cover;
+   border: 1px solid #f2d974;
+}
+
+.end h1{
+   text-align: center;
+   color: #f2d974;
+   border: 1px solid #f2d974;
+   width: 20%;
+   margin: auto;
+}
+
+.MyAcc{
+   width: 550px;
+   margin: auto;
+}
+
+.MyAcc ul li{
+   margin: 25px;
+   list-style: none;
+   float: left;
+   border-radius: 50%;
+   background-color: #f2d974;
+}
+
+.MyAcc ul li:hover{
+   border-radius: 50%;
+   box-shadow: 5px 5px 15px #f2d974,
+               -5px -5px 15px #f2d974;
+}
+
+.mypic{
+   position:relative;
+   top: 0px;
+   left: 42.5%;
+   border-radius: 50%;
+   margin-top: 5px;
+}
+
+.mypic:hover{
+   box-shadow: 5px 5px 15px #f2d974,
+               -5px -5px 15px #f2d974;
+}
+
+.developedBy{
+   display: block;
+   color: #000;
+   position: relative;
+   bottom: -125px;
+   right: 425px
+}
+
+
+
+
+
+

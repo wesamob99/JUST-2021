@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url('IT Images/backgroundIT.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 1349px;
+	 background-size: cover;
+}
+/*************************** اللينكات الرئيسية ***************************/
+
+.background{
+    background-image: url('IT Images/faculty.jpg');
+	 background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.container { /*Make every thing in the middle */
+	width: 750px;
+	margin: auto;
+    
+}
+.navbar {
+    background-color: #A58C8E;
+	 color: #000;
+	 overflow:hidden;
+    font-size: 23px;
+    opacity: .8;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.navbar ul li{
+	float: left;
+	padding: 10px;
+    list-style: none;
+    opacity: 9;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    opacity: 9;
+}
+
+/********** main **********/
+
+.navbar ul li .colormain{
+   color: #000;
+}
+
+.navbar ul .bordermain{
+   background-color: #FFF;
+   border-radius: 50%
+}
+   
+/*************************/
+
+.navbar:hover, .navbar ul li:hover, .navbar ul li a:hover{
+    opacity: 10;
+    color: #000;
+}
+
+/******************************JUST Logo***********************************/
+
+.JUST_logo{
+    position: absolute;
+    left: 5px;
+    width: 250px;
+    height: 150px;
+    overflow: hidden
+}
+
+/********************************go top icon*********************************/
+
+.goTop{
+   width: 70px;
+   height: 70px;
+   position: fixed;
+   bottom: 5px;
+   right: 5px;
+}
+
+/********************************College Breif***********************************/
+
+.collBreif{
+    background-color: #A58C8E;
+    direction: rtl;
+    height: 464px;
+    border-bottom : 1px solid #EBCED0;
+    margin-bottom: 500px;
+}
+
+.collBreif h1{
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    border: 1px solid #EBCED0;
+    margin-bottom: 15px;
+}
+
+.collBreif h2{
+	 direction: rtl;
+    color: #FFF;
+    padding: 5px;
+    border: 1px solid #EBCED0;
+    margin-bottom: 5px;
+	 line-height: 30px
+}
+
+/********************************Dep Breif***********************************/
+
+.collDep{
+    background-color: #A58C8E;
+    direction: rtl;
+    height: 620px;
+    border-bottom : 1px solid #EBCED0;
+    margin-bottom: 500px;
+}
+
+.collDep h1{
+    text-align: center;
+    color: #FFF;
+    padding: 10px;
+    border: 1px solid #EBCED0;
+    margin-bottom: 15px;
+}
+
+.collDep h2 p{
+    text-align: center;
+    color: #000;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.collDep h2 li{
+    list-style: none;
+    text-align: center;
+    color: #FFF;
+    padding: 5px;
+    border: 1px solid #EBCED0;
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+/******************************Colleges Links******************************/
+
+.DepLinks{
+    background-color: #A58C8E;
+    width: 100%;
+    height: 640px;
+    margin-bottom: 500px;
+    border-bottom: 1px solid #EBCED0;
+}
+
+.DepLinks h1{
+    text-align: center;
+    border: 1px solid #EBCED0;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.DepTable {
+    width: 100%;
+}
+
+.DepTable th{
+    width: 33.333%;
+}
+
+.DepTable img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.DepTable tr th a h2, .DepTable tr th a{
+    text-decoration: none;
+    color: #FFF
+}
+
+.DepTable tr th a h2{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #EBCED0;
+    margin-bottom: 20px;
+}
+
+.DepTable img:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 15px #FFF,
+                -5px -5px 15px #FFF;
+}
+
+.DepTable tr th a h2:hover{
+color: #EBCED0
+}
+
+/******************Two***********************/
+
+.DepTableTwo {
+    width: 100%;
+}
+
+.DepTableTwo th{
+    width: 50%;
+}
+
+.DepTableTwo img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.DepTableTwo tr th a h2, .DepTableTwo tr th a{
+    text-decoration: none;
+    color: #FFF
+}
+
+.DepTableTwo tr th a h2{
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #EBCED0;
+    margin-bottom: 20px;
+}
+
+.DepTableTwo img:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 15px #FFF,
+                -5px -5px 15px #FFF;
+}
+
+.DepTableTwo tr th a h2:hover{
+color: #EBCED0
+}
+
+/********************************Page End***********************************/
+
+.end{
+   width: 100%;
+   height: 400px;
+   background-image: url('IT Images/background-2743842_1280.jpg');
+	background-size: cover;
+   border: 1px solid #937476;
+}
+
+.end h1{
+   text-align: center;
+   color: #8E4449;
+   border: 1px solid #9E666A;
+   width: 20%;
+   margin: auto;
+}
+
+.MyAcc{
+   width: 550px;
+   margin: auto;
+}
+
+.MyAcc ul li{
+   margin: 25px;
+   list-style: none;
+   float: left;
+   border-radius: 50%;
+   background-color: #9E666A;
+}
+
+.MyAcc ul li:hover{
+   border-radius: 50%;
+   box-shadow: 5px 5px 15px #9E666A,
+               -5px -5px 15px #9E666A;
+}
+
+.mypic{
+   position:relative;
+   top: 0px;
+   left: 42.5%;
+   border-radius: 50%;
+   margin-top: 5px;
+}
+
+.mypic:hover{
+   box-shadow: 5px 5px 15px #9E666A,
+               -5px -5px 15px #9E666A;
+}
+
+.developedBy{
+   display: block;
+   color: #000;
+   position: relative;
+   bottom: -125px;
+   right: 425px
+}
+
+
+
+
+

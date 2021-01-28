@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url('ImagesJust/just66.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 1349px;
+	 margin: auto;
+}
+
+/*************************** اللينكات الرئيسية ***************************/
+
+.background{
+    background-image: url('ImagesJust/just888.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 650px;
+}
+
+.container {
+	width: 750px;
+	margin: auto;
+}
+
+.navbar {
+    background-color: #00A77D;
+	 color: #000;
+	 overflow:hidden;
+    font-size: 23px;
+    opacity: .8;
+    width: 100%;
+}
+
+.navbar ul li{
+	 float: left;
+	 padding: 10px;
+    list-style: none;
+    opacity: 9;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #FFF;
+    opacity: 9;
+}
+
+/********** main **********/
+
+.navbar ul li .colormain{
+   color: #000;
+}
+
+.navbar ul .bordermain{
+   background-color: #FFF;
+   border-radius: 50%
+}
+   
+/*************************/
+
+.navbar:hover, .navbar ul li:hover, .navbar ul li a:hover{
+    opacity: 10;
+    color: #000;
+}
+
+
+/******************************JUST Logo***********************************/
+
+
+.JUST_logo{
+    position: absolute;
+    left: 5px;
+    width: 250px;
+    height: 150px;
+    overflow: hidden
+}
+
+/**************************** Brief abot uni *******************************/
+
+.breif{
+    width: 100%;
+}
+
+.newBackGround{
+    background-image: url('ImagesJust/Sea Blizz.jpg');
+    color: #00BE8E;
+    margin-bottom: 500px;
+    border: 1px solid #FFF;
+}
+
+.breif .box1, .breif .box2, .breif .box3{
+    width:27%;
+    direction: rtl;
+    height: 700px;
+    background-color: #999900;
+    float: left;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid #FFF;
+    opacity: .8;
+}
+
+.breif .box1{
+    background-color: #001913;
+    color: #FFF;
+}
+
+.breif .box2{
+    background-color: #00503C;
+    color: #FFF;
+}
+
+.breif .box3{
+   background-color: #00BE8E;
+   color: #00261C;
+}
+
+.box1 h2, .box2 h2, .box3 h2{
+    text-align: center;
+    border: 1px solid #FFF;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.breif .box1:hover, .breif .box2:hover, .breif .box3:hover{
+    opacity: 10;
+    overflow-y: scroll;
+}
+
+/********************************Websites Links*********************************/
+
+.websites{
+    background-image: url('ImagesJust/Sea Blizz.jpg');
+    width: 100%;
+    height: 650px;
+    margin-bottom: 500px;
+    border: 1px solid #FFF;
+}
+
+.websites h1{
+    text-align: center;
+    border: 1px solid #FFF;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px
+}
+
+.webimages {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.webimages th{
+    width: 33.333%;
+}
+
+.webimages img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #00BE9B;
+    margin-bottom: 10px;
+}
+
+.webimages tr th a h2, .webimages tr th a{
+    text-decoration: none;
+    color: #000
+}
+
+.webimages tr th a h2{
+    padding: 5px;
+    border: 1px solid #FFF;
+    margin-bottom: 20px;
+}
+
+.webimages img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.webimages tr th a h2:hover{
+color: #FFF
+}
+
+/********************************go top icon*********************************/
+
+.goTop{
+   width: 70px;
+   height: 70px;
+   position: fixed;
+   bottom: 5px;
+   right: 5px;
+}
+
+/********************************Other Links********************************/
+
+.otherlinks{
+   margin-bottom: 500px;
+   width: 100%;
+   height: 325px;
+   background-image: url('ImagesJust/Sea Blizz.jpg');
+   border: 1px solid #FFF;
+}
+
+.otherlinks h1{
+    text-align: center;
+    border: 1px solid #FFF;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+
+.otherimages {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.otherimages th{
+    width: 20%;
+}
+
+.otherimages img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #00BE9B;
+    margin-bottom: 10px;
+}
+
+.otherimages tr th a h2, .otherimages tr th a{
+    text-decoration: none;
+    color: #000
+}
+
+.otherimages tr th a h2{
+    padding: 5px;
+    border: 1px solid #FFF;
+    margin-bottom: 20px;
+}
+
+.otherimages img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.otherimages tr th a h2:hover{
+color: #FFF
+}
+
+/********************************Page End***********************************/
+
+.end{
+   width: 100%;
+   height: 400px;
+   background-image: url('ImagesJust/end.jpg');
+   border: 1px solid #FFF;
+}
+
+.end h1{
+   text-align: center;
+   color: #015A9E;
+   border: 1px solid #5270FE;
+   width: 20%;
+   margin: auto;
+}
+
+.MyAcc{
+   width: 550px;
+   margin: auto;
+}
+
+.MyAcc ul li{
+   margin: 25px;
+   list-style: none;
+   float: left;
+}
+
+.MyAcc ul li:hover{
+   border-radius: 40%;
+   box-shadow: 5px 5px 15px #5270FE,
+               -5px -5px 15px #5270FE;
+}
+
+.mypic{
+   position:relative;
+   top: 0px;
+   left: 42.5%;
+   border-radius: 50%;
+   margin-top: 5px;
+}
+
+.mypic:hover{
+   box-shadow: 5px 5px 15px #009BC9,
+               -5px -5px 15px #009BC9;
+}
+
+.developedBy{
+   display: block;
+   color: #000;
+   position: relative;
+   bottom: -125px;
+   right: 30%
+}

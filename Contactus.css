@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url('ImagesJust/contactbackground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+/*************************** اللينكات الرئيسية ***************************/
+
+.background{
+    background-image: url('ImagesJust/tree-200795_1280.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 650px;
+	 background-size: 100% 100%;
+}
+
+.container { /*Make every thing in the middle */
+	width: 750px;
+	margin: auto;
+    
+}
+.navbar {
+    background-image: url('ImagesJust/Green to dark.jpg');
+	color: #000;
+	overflow:hidden;
+    font-size: 23px;
+    opacity: .8;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.navbar ul li{
+	float: left;
+	padding: 10px;
+    list-style: none;
+    opacity: 9;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #FFF;
+    opacity: 9;
+}
+
+/********** main **********/
+
+.navbar ul li .colormain{
+   color: #000;
+}
+
+.navbar ul .bordermain{
+   background-color: #FFF;
+   border-radius: 50%
+}
+   
+/*************************/
+
+.navbar:hover, .navbar ul li:hover, .navbar ul li a:hover{
+    opacity: 10;
+    color: #000;
+}
+
+/******************************JUST Logo*************************************/
+
+
+.JUST_logo{
+    position: absolute;
+    left: 5px;
+    width: 250px;
+    height: 150px;
+    overflow: hidden
+}
+
+/********************************go top icon*********************************/
+
+.goTop{
+   width: 70px;
+   height: 70px;
+   position: fixed;
+   bottom: 5px;
+   right: 5px;
+}
+
+/******************************Who Am I***********************************/
+
+.Iam{
+    background-image: url('ImagesJust/Green to dark.jpg');
+    direction: rtl;
+    height: 310px;
+    border-bottom : 1px solid #FFF;
+    margin-bottom: 400px;
+}
+
+.Iam h1{
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #FFF;
+    margin-bottom: 30px;
+    
+}
+.Iam h2{
+    margin-top: 3%;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #FFF;
+}
+
+.Iam ul{
+   margin-top: 20px
+}
+
+
+/******************************Some Words***********************************/
+
+.words{
+    background-image: url('ImagesJust/Green to dark.jpg');
+    direction: rtl;
+    height: 180px;
+    border-bottom : 1px solid #FFF;
+    margin-bottom: 400px;
+}
+
+.words h1{
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #FFF;
+    margin-bottom: 10px;
+}
+.words h2{
+   margin-top: 1.5%;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #FFF;
+}
+
+/********************************Other Links********************************/
+
+.ContactACC{
+   width: 100%;
+   height: 490px;
+   background-image: url('ImagesJust/abstract-2055560_1280.jpg');
+   background-size: cover;
+   border: 1px solid #FFF;
+}
+
+.ContactACC h1{
+    text-align: center;
+    border: 1px solid #FFF;
+    padding: 10px 0px 10px 0px;
+    margin-bottom: 20px;
+	 color: #2C3D01;
+}
+
+.ContactIMG {
+    margin: auto;
+    box-sizing: border-box;
+    width: 75%;
+}
+
+.ContactIMG th{
+    width: 5%;
+}
+
+.ContactIMG img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #FFF;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px #2C3D01,
+               -5px -5px 15px #2C3D01;
+}
+
+.ContactIMG tr th a h2, .ContactIMG tr th a{
+    text-decoration: none;
+    color: #2C3D01
+}
+
+.ContactIMG tr th a h2{
+    padding: 5px;
+    border: 1px solid #2C3D01;
+    margin-bottom: 20px;
+}
+
+.ContactIMG img:hover {
+    transform: scale(1.1,1.1);
+    box-shadow: 5px 5px 10px #828282,
+               -5px -5px 10px #828282;
+}
+
+.ContactIMG tr th a h2:hover{
+color: #000
+}
+
+.mypic{
+   position:relative;
+   top: 0px;
+   left: 42.5%;
+   border-radius: 50%;
+   margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.mypic:hover{
+   box-shadow: 5px 5px 15px #2C3D01,
+               -5px -5px 15px #2C3D01;
+}
+
+
